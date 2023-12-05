@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: large;
+    background: -webkit-linear-gradient(to right, green, aqua);
+    background: linear-gradient(to right, green, aqua);
+}
+header{
+    display: flex;
+    background-color: green;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+.divTitulo{
+    flex: 80%;
+    text-align: center;
+}
+
+.btn btn-success{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+
